@@ -1,0 +1,44 @@
+name: message_board_mobile
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  get_storage: ^2.1.1
+  sizer: ^2.0.15
+  pull_to_refresh: ^2.0.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  build_runner: any
+  flutter_gen_runner: null
+  flutter_test:
+    sdk: flutter
+
+flutter_gen:
+  output: lib/resources/
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/resources/images/
+  fonts:
+    - family: avenir
+      fonts:
+        - asset: lib/resources/fonts/avenir_book.otf
+          weight: 400
+        - asset: lib/resources/fonts/avenir_medium.otf
+          weight: 500
+        - asset: lib/resources/fonts/avenir_heavy.ttf
+          weight: 700
+        - asset: lib/resources/fonts/avenir_roman.otf
+          weight: 900
