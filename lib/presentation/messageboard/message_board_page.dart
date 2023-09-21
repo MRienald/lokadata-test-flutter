@@ -40,7 +40,7 @@ class MessageBoardPage extends StatelessWidget{
                       ),
                     ),
                     Text(
-                      "Berbagi pesanmu disini!",
+                      "Berbagi pesanmu disini",
                       style: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.w400,
